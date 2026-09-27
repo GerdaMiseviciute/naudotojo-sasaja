@@ -8,7 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #333333;
     background-color: #f9f9f9;
 }
 
@@ -176,7 +176,7 @@ ul, ol {
 
 .recipe-content h3 {
     font-size: 150%;
-    color: #333;
+    color: #333333;
     margin-bottom: 10px;
 }
 
@@ -211,14 +211,6 @@ ul, ol {
     position: relative;
     padding-left: 25px;
 }
-/* 
-.ingredients li::before {
-    content: '✓';
-    position: absolute;
-    left: 0;
-    color: #667eea;
-    font-weight: bold;
-} */
 
 .instructions li {
     padding-left: 0;
@@ -259,7 +251,7 @@ ul, ol {
 .contact-content p {
     margin-bottom: 30px;
     color: #555;
-    font-size: 1.1rem;
+    font-size: 110%;
 }
 
 .contact-form {
@@ -274,14 +266,14 @@ ul, ol {
     border: 2px solid #e0e0e0;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
+    font-size: 100%;
     transition: border-color 0.3s;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #38280A;
 }
 
 .contact-form textarea {
@@ -472,12 +464,6 @@ ul, ol {
     padding: 60px 0;
     background: white;
 }
-/* 
-.recipe-detail-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 50px;
-} */
 
 .recipe-section {
     margin-bottom: 50px;
@@ -553,10 +539,6 @@ ul, ol {
 /* Responsive dizainas */
 @media (max-width: 1024px) {
 
-    .recipe-sidebar {
-        order: -1;
-    }
-
     .recipe-header-content {
         grid-template-columns: 1fr;
     }
@@ -575,19 +557,6 @@ ul, ol {
         font-size: 2rem;
     }
 
-    .step {
-        flex-direction: column;
-    }
-
-    .step-number {
-        width: 40px;
-        height: 40px;
-        font-size: 1.2rem;
-    }
-
-    .nutrition-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 @media (max-width: 480px) {
@@ -600,23 +569,14 @@ ul, ol {
         text-align: center;
     }
 
-    .share-buttons {
-        grid-template-columns: 1fr;
-    }
 }
 
 /* Spausdinimo stilius */
 @media print {
     .navbar,
     .recipe-actions,
-    .sidebar-box,
-    .comments-section,
     .footer {
         display: none;
-    }
-
-    .recipe-detail-grid {
-        display: block;
     }
 
     .recipe-header {
