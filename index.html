@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skanių Receptų Svetainė</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigacija -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🍳 Mano Virtuvė</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Pradžia</a></li>
+                <li><a href="#recipes">Receptai</a></li>
+                <li><a href="#about">Apie</a></li>
+                <li><a href="#contact">Kontaktai</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Pagrindinis banneris -->
+    <header id="home" class="hero">
+        <div class="container">
+            <h2>Atraskite Skanius Receptus</h2>
+            <p>Giriami pusryčiai, sotūs pietūs ir skanūs desertai vienoje vietoje</p>
+            <a href="#recipes" class="btn">Peržiūrėti Receptus</a>
+        </div>
+    </header>
+
+    <!-- Receptų sekcija -->
+    <section id="recipes" class="recipes">
+        <div class="container">
+            <h2 class="section-title">Mėgstamiausi Receptai</h2>
+            
+            <div class="recipe-grid">
+                <!-- Receptas 1 -->
+                <article class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://antmedineslenteles.com/wp-content/uploads/2026/09/blog-IMG_5144.jpg" alt="Blynai">
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Plovas</h3>
+                        <p class="recipe-meta">
+                            <span>⏱️ 180 min</span> | 
+                            <span>👥 6 asmenims</span> | 
+                            <span>🔥 Vidutiniškas</span>
+                        </p>
+                        <p class="recipe-description">Sotus jautienos plovas – tai labai skanus patiekalas, puikiai tinkantis šaltoms dienoms.</p>
+                        <a href="plovas.html" class="btn-small">Daugiau</a>
+                    </div>
+                </article>
+
+                <!-- Receptas 2 -->
+                <article class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://www.tevu-darzelis.lt/Files/image/nestumas/article/naminis-tinginys-inner_f92043aa-99a3-46fd-aaa0-8b4c44feae6a.png" alt="Salotos">
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Tinginys</h3>
+                        <p class="recipe-meta">
+                            <span>⏱️ 30 min</span> | 
+                            <span>👥 20 asmenų</span> | 
+                            <span>🔥 Labai lengva</span>
+                        </p>
+                        <p class="recipe-description">Tinginys - labai paprastai paruošiamas ir daugelio mėgstamas skanėstas!</p>
+                        
+                        <a href="tinginys.html" class="btn-small">Daugiau</a>
+                    </div>
+                </article>
+
+                <!-- Receptas 3 -->
+                <article class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://www.lamaistas.lt/uploads/editor/image/new/shutterstock_281913914.jpg" alt="Desertas">
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Šaltibarščiai</h3>
+                        <p class="recipe-meta">
+                            <span>⏱️ 20 min</span> | 
+                            <span>👥 5 asmenims</span> | 
+                            <span>🔥 Labai lengva</span>
+                        </p>
+                        <p class="recipe-description">Šaltibarščiai – tai vienas iš tų patiekalų, kuris neatsiejamas nuo lietuviškos vasaros.</p>
+                        
+                        <a href="saltibarsciai.html" class="btn-small">Daugiau</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apie mus -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Apie Mus</h2>
+            <div class="about-content">
+                <p>Esame maisto entuziastų komanda, kuri myli dalintis skaniais ir lengvai paruošiamais receptais. Mūsų tikslas - įkvėpti jus gaminti namuose ir atrasti naujus skonius.</p>
+                <p>Visi receptai yra išbandyti ir patikrinti, kad galėtumėte būti tikri - pavyks kiekvienam!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontaktai -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Susisiekite</h2>
+            <div class="contact-content">
+                <p>Turite klausimų ar norite pasidalinti savo receptu? Rašykite mums!</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Jūsų vardas" required>
+                    <input type="email" placeholder="El. paštas" required>
+                    <textarea placeholder="Jūsų žinutė" rows="5" required></textarea>
+                    <button type="submit" class="btn">Siųsti</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Skanių Receptų Svetainė. Visos teisės saugomos.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

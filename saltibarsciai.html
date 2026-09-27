@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Šaltibarščių Receptas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigacija -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🍳 Mano Virtuvė</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Pradžia</a></li>
+                <li><a href="index.html#recipes">Receptai</a></li>
+                <li><a href="index.html#about">Apie</a></li>
+                <li><a href="index.html#contact">Kontaktai</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Recepto antraštė -->
+    <header class="recipe-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Pradžia</a> / 
+                <a href="index.html#recipes">Receptai</a> / 
+                <span>Šaltibarščiai</span>
+            </div>
+            <div class="recipe-header-content">
+                <div class="recipe-header-image">
+                    <img src="https://www.lamaistas.lt/uploads/editor/image/new/shutterstock_281913914.jpg" alt="Plovas">
+                </div>
+                <div class="recipe-header-info">
+                    <h1>Tradiciniai Šaltibarščiai</h1>
+                    <p class="recipe-tagline">Be gliuteno</p>
+                    
+                    <div class="recipe-stats">
+                        <div class="stat-item">
+                            <span class="stat-icon">⏱️</span>
+                            <span class="stat-label">Laikas</span>
+                            <span class="stat-value">20 min</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">👥</span>
+                            <span class="stat-label">Porcijos</span>
+                            <span class="stat-value">5 asmenims</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">🔥</span>
+                            <span class="stat-label">Sunkumas</span>
+                            <span class="stat-value">Labai lengva</span>
+                        </div>
+                    </div>
+
+                    <div class="recipe-actions">
+                        <button class="btn" style="background-color:#C9B389" onclick="window.print()">🖨️ Spausdinti</button>
+                        <button class="btn btn-outline">💾 Išsaugoti</button>
+                        <button class="btn btn-outline">📤 Dalintis</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Pagrindinis turinys -->
+    <main class="recipe-detail">
+        <div class="container">
+            <div class="recipe-main-content">
+                <!-- Trumpas aprašymas -->
+                <section class="recipe-section">
+                    <h2>Apie šį receptą</h2>
+                    <p class="recipe-intro">
+                        Šaltibarščiai – tai vienas iš tų patiekalų, kuris neatsiejamas nuo lietuviškos vasaros. 
+                        Ši šalta sriuba su kefyru, burokėliais ir agurkais ne tik atgaivina, bet ir suteikia energijos karštomis dienomis. 
+                        Tobula su bulvėmis!
+                    </p>
+                </section>
+
+                <!-- Ingredientai -->
+                <section class="recipe-section ingredients-section">
+                    <h2>🛒 Ingredientai</h2>
+                    <div class="ingredients-box">
+                        <ul class="ingredients-detailed">
+                            <li>
+                                <span class="ingredient-amount">1 litras</span>
+                                <span class="ingredient-name">šaltibarščių kefyro</span>
+                            </li>
+                            <li>
+                                <span class="ingredient-amount">400g</span>
+                                <span class="ingredient-name">marinuotų burokėlių</span>
+                            </li>
+                            <li>
+                                <span class="ingredient-amount">2 vnt</span>
+                                <span class="ingredient-name">agurkų</span>
+                            </li>
+                            <li>
+                                <span class="ingredient-amount">1 pundelis</span>
+                                <span class="ingredient-name">svogūnų laiškų</span>
+                            </li>
+                            <li>
+                                <span class="ingredient-amount">1 pundelis</span>
+                                <span class="ingredient-name">krapų</span>
+                            </li>
+                            <li>
+                                <span class="ingredient-amount">pagal skonį</span>
+                                <span class="ingredient-name">druskos</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Patarimai ingredientams -->
+                    <div class="ingredient-tips">
+                        <h3>💡 Patarimai:</h3>
+                        <ul>
+                            <li>Šaltibarščius galima gaminti ir su paprastu kefyru, bet su šaltibarščių kefyru jie pavyksta skalsesni, turtingesnio skonio</li>
+                            <li>Jei mėgstate švelnesnio skonio šaltibarščius, juos galite gaminti su virtais burokėliais - juos supjaustykite šiaudeliais. Tokiu atveju į šaltibarščius galima papildomai įpilti šlakelį obuolių acto</li>
+                            <li>Patiekite su virtomis bulvėmis ar keptomis bulvytėmis – puikiai dera su šaltibarščiais</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Gaminimo instrukcijos -->
+                <section class="recipe-section instructions-section">
+                    <h2>👨‍🍳 Gaminimo Instrukcijos</h2>
+                    <ol class="instructions">
+                        <li>Agurkus supjaustykite nedideliais gabalėliais. Svogūnų laiškus ir krapus smulkiai sukapokite.</li>
+                        <li>Kefyrą gerai išmaišykite su druska. Sudėkite marinuotus burokėlius (su visu skysčiu), svogūnų laiškus, ir agurkus. Sumaišykite.</li>
+                        <li>Galima šaltibarščius patiekti iškart pagaminus, bet skaniau būna, kai jie pastovi bent 1-2 valandas šaldytuve.</li>
+                        <li>Patiekite pagardinę virtais kiaušiniais. Šalia labai tinka virtos bulvės.</li>
+                    </ol>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Skanių Receptų Svetainė. Visos teisės saugomos.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
